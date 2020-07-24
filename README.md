@@ -23,6 +23,7 @@ JS-ES6, CSS3, HTML5, GIT, Node js, express
 12. [gh-pages](https://www.npmjs.com/package/gh-pages)
 13. [nodemon](https://www.npmjs.com/package/nodemon)
 14. [prettier](https://www.npmjs.com/package/prettier)
+15. [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 ## **Development instruction**
 * download or clone repo
 * install dependencies `npm i`
