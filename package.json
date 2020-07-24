@@ -1,0 +1,42 @@
+{
+  "name": "sprint12",
+  "version": "0.0.1",
+  "description": "Yandex Praktikum training project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server.js",
+    "start": "cross-env NODE_ENV=development node server.js",
+    "inspect": "node --inspect app.js",
+    "build": "cross-env NODE_ENV=production nodemon server.js",
+    "deploy": "cross-env NODE_ENV=production gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idlemike/sprint12.git"
+  },
+  "keywords": [],
+  "author": "Andrushenko Mihail",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Idlemike/sprint12/issues"
+  },
+  "homepage": "https://github.com/Idlemike/sprint12#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "gh-pages": "^3.1.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5"
+  }
+}
