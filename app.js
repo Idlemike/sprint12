@@ -18,7 +18,7 @@ app.use((req, res, next) => {
 app.use("/users", userRouter);
 app.use("/cards", cardsRouter);
 /*PUBLIC*/
-app.use(express.static(path.join(__dirname, "public")));
+app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
   /*    console.log(req.baseUrl);*/

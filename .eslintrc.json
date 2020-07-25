@@ -16,6 +16,7 @@
     "ecmaVersion": 2017,
     "sourceType": "module"
   },
+  "ignorePatterns": ["/public", "/.git", "node_modules"],
   "rules": {
     "prettier/prettier": "error",
     "spaced-comment": "off",
@@ -38,7 +39,7 @@
     "no-unused-vars": [
       "error",
       {
-        "argsIgnorePattern": "req|res|next|val"
+        "argsIgnorePattern": "req|res|next|val|get|param|route|join"
       }
     ]
   }
