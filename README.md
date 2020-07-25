@@ -1,6 +1,6 @@
 # This site was built using GitHub Pages <https://idlemike.github.io/sprint12/>
 ***
-## **Version 0.0.1**
+## **Version 0.0.2**
 ***
 ## **about project**
 It's a training project of Sprint 12 Yandex-Praktikum on theme: "express"
