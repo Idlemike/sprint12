@@ -2,13 +2,10 @@ const express = require("express");
 const {
   getAllUsers,
   getUser,
-  checkID,
+  /*  checkID,*/
 } = require("../controllers/userController");
 
 const router = express.Router();
-
-//check id is exist
-router.param("id", checkID);
 
 router.route("/").get(getAllUsers);
 

@@ -17,11 +17,11 @@ app.use((req, res, next) => {
 // 3) ROUTES
 app.use("/users", userRouter);
 app.use("/cards", cardsRouter);
+app.use("/users/:id", userRouter);
 /*PUBLIC*/
 app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use((req, res, next) => {
-  /*    console.log(req.baseUrl);*/
   if (req.baseUrl !== "/users" && req.baseUrl !== "/cards") {
     return res.status(404).json({
       status: "fail",
