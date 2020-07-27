@@ -4,10 +4,9 @@
   "description": "Yandex Praktikum training project",
   "main": "app.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server.js",
-    "start": "cross-env NODE_ENV=development node server.js",
-    "inspect": "node --inspect app.js",
-    "build": "cross-env NODE_ENV=production nodemon server.js",
+    "dev": "cross-env NODE_ENV=development nodemon bin/server.js",
+    "start": "cross-env NODE_ENV=development node bin/server.js",
+    "build": "cross-env NODE_ENV=production nodemon bin/server.js",
     "deploy": "cross-env NODE_ENV=production gh-pages -d public"
   },
   "repository": {
